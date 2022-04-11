@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="pdostonh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>BndPrCalc</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">      
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">   
     <link rel="manifest" href="/favicon_io/site.webmanifest">
     
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">   
 </head>
 <body>
     <!-- https://www.omnicalculator.com/finance/bond-price | namuna tob shundoy-->
     <h1>
         Bond Price calculator
     </h1>
-    <p>Nominali:</p> <textarea id = "kn">N</textarea>
-    <p>Qoplash summasi:</p> <textarea id = "f">F</textarea>
-    <p>Kupon stavka:</p> <textarea id = "k">k</textarea>
-    <p>Bozor Stavka:</p> <textarea id = "r">r</textarea>
-    <p>Yiliga to'lashlar soni:</p> <textarea id="m">m</textarea>
-    <p>Necha yilga:</p> <textarea id="n">n</textarea>
+    <p>Nominali:</p> <input type="number" id = "kn" placeholder="N">
+    <p>Qoplash summasi:</p> <input type="number" id = "f" placeholder="F">
+    <p>Kupon stavka:</p> <input type="number" id = "k" placeholder="k">
+    <p>Bozor Stavka:</p> <input type="number" id = "r" placeholder="r">
+    <p>Yiliga to'lashlar soni:</p> <input type="number" id="m" placeholder="m">
+    <p>Necha yilga:</p> <input type="number" id="n" placeholder="n">
     <button type="button" onclick="his()">Hisoblash</button>
     <p id="v">V</p>
-    
-    <script src="script.js"></script>
+        
     <input type="button" value="boshqatdan" onClick="history.go(0)">
+    
+    <script type="text/javascript" src="script.js"></script>
 </body>    
+
 </html>
